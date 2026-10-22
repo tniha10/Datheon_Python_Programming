@@ -17,4 +17,9 @@ guess = input("Guess a letter: ")  # Prompting the user to guess a letter
 print(secret_word)
 print(word_length)
 print(hidden_word)
-print(guess)
+
+# Checking if the guessed letter is in the secret word
+if guess.lower() in secret_word:
+    print("Correct guess!")
+else:
+    print("Incorrect guess.")
