@@ -11,7 +11,10 @@ word_length = len(secret_word)
 
 hidden_word = "_" * word_length  # Creating a hidden representation of the secret word
 
-# Displaying the secret word and its length to the console (for testing purposes)
+guess = input("Guess a letter: ")  # Prompting the user to guess a letter
+
+# Displaying to the console (for testing purposes)
 print(secret_word)
 print(word_length)
 print(hidden_word)
+print(guess)
