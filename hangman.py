@@ -6,6 +6,12 @@ words = ["apple", "lion", "chair", "neptune", "internship", "python", "hangman",
 
 # Choosing a random word from the list
 secret_word = random.choice(words)
+# Getting the length of the secret word
+word_length = len(secret_word)
 
-# Displaying the secret word to the console (for testing purposes)
+hidden_word = "_" * word_length  # Creating a hidden representation of the secret word
+
+# Displaying the secret word and its length to the console (for testing purposes)
 print(secret_word)
+print(word_length)
+print(hidden_word)
