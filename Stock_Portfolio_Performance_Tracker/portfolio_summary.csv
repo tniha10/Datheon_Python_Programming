@@ -1,0 +1,3 @@
+Timestamp,Symbol,Company,Sector,Shares,Buy Price (USD),Current Price (USD),Invested (USD),Market Value (USD),Gain/Loss (USD),Gain/Loss (%)
+2026-10-30T00:54:59+06:00,AAPL,Apple Inc.,Information Technology,10.0,150.00,350.34,1500.00,3503.40,2003.40,133.56
+2026-10-30T00:54:59+06:00,TOTAL,PORTFOLIO,,,,,1500.00,3503.40,2003.40,133.56
