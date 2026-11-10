@@ -1,7 +1,6 @@
 import random
 from pathlib import Path
 
-# Hangman drawings for 0 to 6 incorrect guesses
 HANGMAN_STAGES = [
     """
        +---+
