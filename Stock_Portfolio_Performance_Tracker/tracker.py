@@ -1,10 +1,8 @@
-
 import csv
 from datetime import datetime
 from pathlib import Path
 
 import yfinance as yf
-
 
 # File locations
 BASE_DIR = Path(__file__).resolve().parent
